@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="linearLayout3" type="id" />
+    <item name="main_list_image_cleaning" type="id" />
+    <item name="main_list_tv_cleaning" type="id" />
+    <item name="linearLayout4" type="id" />
+    <item name="main_list_image_houseware" type="id" />
+    <item name="main_list_tv_houseware" type="id" />
+</resources>

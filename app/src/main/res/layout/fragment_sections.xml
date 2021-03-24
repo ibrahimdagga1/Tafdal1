@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Sections">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_170sdp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/Sections_image_Legumes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_32sdp"
+            android:src="@drawable/image_8" />
+
+        <TextView
+            android:id="@+id/Sections_tv_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_21sdp"
+            android:gravity="center"
+            android:text="بقوليات"
+            android:textSize="@dimen/_16sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_170sdp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/Sections_image_drink"
+            android:layout_width="144dp"
+            android:layout_height="91dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_21sdp"
+            android:src="@drawable/__" />
+
+        <TextView
+            android:id="@+id/Sections_tv_drink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_21sdp"
+            android:gravity="center"
+            android:text="المشرويات"
+            android:textSize="@dimen/_16sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_170sdp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <ImageView
+            android:id="@+id/Sections_image_Chocolate"
+            android:layout_width="144dp"
+            android:layout_height="91dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_21sdp"
+            android:src="@drawable/_91" />
+
+        <TextView
+            android:id="@+id/Sections_tv_Chocolate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_21sdp"
+            android:gravity="center"
+            android:text="شوكلاته"
+            android:textSize="@dimen/_16sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_170sdp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <ImageView
+            android:id="@+id/Sections_image_Canned"
+            android:layout_width="144dp"
+            android:layout_height="91dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_21sdp"
+            android:src="@drawable/image_7" />
+
+        <TextView
+            android:id="@+id/Sections_tv_Canned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_21sdp"
+            android:gravity="center"
+            android:text="معليات"
+            android:textSize="@dimen/_16sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_170sdp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+
+        <ImageView
+            android:id="@+id/Sections_image_Cheeses"
+
+            android:layout_width="144dp"
+            android:layout_height="91dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_21sdp"
+            android:src="@drawable/image_10" />
+
+        <TextView
+            android:id="@+id/Sections_tv_Cheeses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_21sdp"
+            android:gravity="center"
+            android:text="أجبان ومشتقاتها"
+            android:textSize="@dimen/_16sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_170sdp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+
+        <ImageView
+            android:id="@+id/Sections_image_spices"
+            android:layout_width="144dp"
+            android:layout_height="91dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_21sdp"
+            android:src="@drawable/path_879" />
+
+        <TextView
+            android:id="@+id/Sections_tv_spices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_21sdp"
+            android:gravity="center"
+            android:text="توايل"
+            android:textSize="@dimen/_16sdp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

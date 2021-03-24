@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Itemdescription">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_222sdp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/scription_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/image_4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
+
+        <TextView
+            android:id="@+id/scription_tv_title"
+            android:layout_width="96dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:layout_height="@dimen/_21sdp"
+            android:text="عصير كوكاكولا" />
+
+        <TextView
+            android:id="@+id/scription_tv_price"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_21sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_9sdp"
+            android:text="السعر: 5 شيكل" />
+
+        <TextView
+            android:id="@+id/scription_tv_scription"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:text=" للمصممين نص لوريم ايبسوم بالعربي عربي انجليزي
+لوريم ايبسوم هو نموذج افتراضي يوضع في
+التصاميم لتعرض على العميل ليتصور طريقه وضع
+النصوص بالتصاميم سواء كانت تصاميم  للمصممين
+نص لوريم ايبسوم بالعربي عربي انجليزي لوريم
+ايبسوم هو نموذج افتراضي يوضع في التصاميم
+لتعرض على العميل ليتصور طريقه وضع النصوص
+بالتصاميم سواء كانت تصاميم " />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_81sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10">
+
+        <Button
+            android:id="@+id/scription_btn_addcart"
+            android:layout_width="@dimen/_166sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="21dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="@dimen/_16sdp"
+            android:text="أضف للسلة"
+            android:drawableLeft="@drawable/iconfinder_shopping_cart_2561279"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="@dimen/_115sdp"
+            android:layout_height="43dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/scription_image_min"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/_3sdp"
+                android:src="@drawable/ic_min" />
+
+            <TextView
+                android:id="@+id/scription_tv_count"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="@dimen/_3sdp"
+                android:text="3" />
+
+            <ImageView
+                android:id="@+id/scription_image_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/_3sdp"
+                android:src="@drawable/ic_plus" />
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

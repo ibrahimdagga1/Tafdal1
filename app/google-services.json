@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "939882543002",
+    "project_id": "tafdal-d0929",
+    "storage_bucket": "tafdal-d0929.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939882543002:android:fe044fd426356890dc6c23",
+        "android_client_info": {
+          "package_name": "com.example.tafdal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939882543002-neofs7hcvu79n7ai9mrdmgmg3bfo4ou8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tafdal",
+            "certificate_hash": "4c5ced1ba05068685d86a887518274c74960763d"
+          }
+        },
+        {
+          "client_id": "939882543002-u0ma4dbb1dvre591d30lp5p0nud9o5fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB50ak4xNMztpzhaZXfjSdGZHCVv1T9ClU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939882543002-u0ma4dbb1dvre591d30lp5p0nud9o5fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
