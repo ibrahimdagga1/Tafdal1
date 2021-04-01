@@ -60,5 +60,7 @@ dependencies {
     // AndroidX Capable version
     implementation 'com.github.AppIntro:AppIntro:6.1.0'
 
+    compile "com.google.firebase:firebase-auth:9.0.2"
 
 }
+apply plugin: 'com.google.gms.google-services'

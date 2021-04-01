@@ -97,7 +97,7 @@
         android:layout_marginTop="43dp"
         android:layout_marginEnd="19dp"
         android:layout_marginRight="19dp"
-        android:background="@drawable/shape_button"
+        android:backgroundTint="@color/grean"
         android:text="أرسل"
         android:textSize="@dimen/_20sdp"
         app:layout_constraintEnd_toEndOf="parent"

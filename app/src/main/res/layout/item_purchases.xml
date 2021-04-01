@@ -73,7 +73,8 @@
         android:padding="@dimen/_3sdp"
         app:srcCompat="@drawable/ic_plus"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout11" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11"
+        tools:ignore="VectorDrawableCompat" />
 
     <ImageView
         android:id="@+id/button2"
@@ -87,7 +88,8 @@
         android:padding="@dimen/_4sdp"
         app:srcCompat="@drawable/ic_min"
         app:layout_constraintEnd_toStartOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout11" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11"
+        tools:ignore="VectorDrawableCompat" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -110,5 +112,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"></LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

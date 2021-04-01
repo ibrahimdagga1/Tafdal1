@@ -95,6 +95,7 @@
             android:layout_marginBottom="16dp"
             android:textSize="@dimen/_16sdp"
             android:text="أضف للسلة"
+            android:backgroundTint="@color/grean"
             android:drawableLeft="@drawable/iconfinder_shopping_cart_2561279"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"

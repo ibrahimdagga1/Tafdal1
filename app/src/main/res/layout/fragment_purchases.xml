@@ -23,7 +23,7 @@
             android:layout_height="match_parent"
             android:layout_margin="@dimen/_10sdp"
             android:layout_weight="1"
-            android:background="@drawable/shape_button"
+            android:backgroundTint="@color/grean"
             android:textSize="@dimen/_16sdp"
             android:text="الطلب لاحقا" />
 
@@ -33,9 +33,8 @@
             android:layout_height="match_parent"
             android:layout_margin="@dimen/_10sdp"
             android:layout_weight="1"
-            android:background="@drawable/shape_button"
+            android:backgroundTint="@color/grean"
             android:textSize="@dimen/_16sdp"
-
             android:text="الطلب الأن" />
     </LinearLayout>
 

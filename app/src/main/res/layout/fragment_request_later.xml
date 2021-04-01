@@ -106,7 +106,7 @@
         android:layout_marginBottom="28dp"
         android:text="تاكيد الطلب"
         android:textSize="@dimen/_16sdp"
-        android:background="@drawable/shape_button"
+        android:backgroundTint="@color/grean"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

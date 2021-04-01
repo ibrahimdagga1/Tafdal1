@@ -27,7 +27,7 @@
             android:layout_marginLeft="21dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
-            android:background="@drawable/shape_button"
+            android:backgroundTint="@color/grean"
             android:drawableLeft="@drawable/iconfinder_shopping_cart_2561279"
             android:text="أضف للسلة"
             android:textSize="@dimen/_16sdp"

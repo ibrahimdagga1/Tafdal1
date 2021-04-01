@@ -124,7 +124,7 @@
         android:layout_marginBottom="27dp"
         android:textSize="20sp"
         android:gravity="center"
-        android:background="@drawable/shape_button"
+        android:backgroundTint="@color/grean"
         android:text="أرسل الرسالة"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
