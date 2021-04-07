@@ -114,7 +114,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView5"
              />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -122,7 +122,7 @@
             android:textColor="@color/grean"
             android:textSize="@dimen/_18sdp"
             android:backgroundTint="@color/white"
-            android:drawableLeft="@drawable/cart_green"
+            android:drawableLeft="@drawable/iconfinder_shopping_cart_2561279"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />

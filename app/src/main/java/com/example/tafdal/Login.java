@@ -1,25 +1,23 @@
 package com.example.tafdal;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-
-import com.example.tafdal.databinding.ActivityLoginBinding;
+//import com.example.tafdal.databinding.ActivityLoginBinding;
 
 public class Login extends AppCompatActivity {
 
-    ActivityLoginBinding binding;
+//    ActivityLoginBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityLoginBinding.inflate(getLayoutInflater());
-        View view = binding.getRoot();
-        setContentView(view);
+//        binding = ActivityLoginBinding.inflate(getLayoutInflater());
+//        View view = binding.getRoot();
+//        setContentView(view);
 
-        binding.loginBtnLogin.setOnClickListener(new View.OnClickListener() {
+        /*binding.loginBtnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -27,7 +25,7 @@ public class Login extends AppCompatActivity {
                 Login.this.startActivity(mainIntent);
                 Login.this.finish();
             }
-        });
+        });*/
 
 
     }

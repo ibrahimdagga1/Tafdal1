@@ -49,14 +49,14 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/offers_btn_addcart"
             app:layout_constraintTop_toTopOf="parent">
-
+<!--
             <ImageView
                 android:id="@+id/offers_image_min"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="@dimen/_3sdp"
-                android:src="@drawable/ic_min" />
+                android:src="@drawable/ic_min" />-->
 
             <TextView
                 android:id="@+id/offers_tv_count"

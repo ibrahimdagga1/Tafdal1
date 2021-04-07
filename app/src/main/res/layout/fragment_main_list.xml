@@ -51,7 +51,7 @@
         android:layout_marginEnd="14dp"
         android:layout_marginRight="14dp"
         android:gravity="center"
-        android:background=""
+        android:background="@color/whitesmok"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
