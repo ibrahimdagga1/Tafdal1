@@ -7,6 +7,10 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
+    buildFeatures {
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.tafdal"
         minSdkVersion 16
@@ -59,6 +63,8 @@ dependencies {
         implementation platform('com.google.firebase:firebase-bom:26.8.0')
 
         compile "com.google.firebase:firebase-auth:9.0.2"
+
+
 
 
     }

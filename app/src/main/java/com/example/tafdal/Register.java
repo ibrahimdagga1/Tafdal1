@@ -79,7 +79,7 @@ public class Register extends AppCompatActivity {
                                     Toast.makeText(Register.this, "Authentication failed." + task.getException(),
                                             Toast.LENGTH_SHORT).show();
                                 } else {
-                                    startActivity(new Intent(Register.this, MainActivity.class));
+                                    startActivity(new Intent(Register.this, Login.class));
                                     finish();
                                 }
                             }
